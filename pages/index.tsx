@@ -10,7 +10,7 @@ export default function Home() {
           src="/frontend-source.svg"
           alt="기본 이미지"
           fill
-          className="w-full"
+          className="object-contain"
         />
         <p className="absolute top-[32.2%] left-[10%] text-center w-[50%] text-[clamp(1.0rem,3.8vw,1.8rem)] leading-relaxed">
           이제 본격적으로 ㅇㅇ님의 사주팔자를 분석해볼 차례네요.
