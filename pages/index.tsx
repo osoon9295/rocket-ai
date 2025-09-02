@@ -7,9 +7,10 @@ export default function Home() {
     <div className="flex flex-col items-center w-full">
       <div className="relative w-full max-w-[44.8rem] aspect-[375/2081]">
         <Image
-          src="/frontend-source.svg"
+          src="/base-image.svg"
           alt="기본 이미지"
           fill
+          priority
           className="object-contain"
         />
         <p className="absolute top-[32.2%] left-[10%] text-center w-[50%] text-[clamp(1.0rem,3.8vw,1.8rem)] leading-relaxed">

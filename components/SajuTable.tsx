@@ -32,9 +32,10 @@ const SajuTable: React.FC = () => {
   return (
     <div className="relative w-full aspect-[351/621] flex flex-col items-center justify-center">
       <Image
-        src="/tableBackground.svg"
+        src="/table-background.svg"
         alt="표 배경 이미지"
         fill
+        priority
         className="object-fill"
       />
       <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[2.5rem]">
