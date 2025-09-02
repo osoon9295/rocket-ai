@@ -18,10 +18,10 @@ const CharacterCell: React.FC<CharacterCellProps> = ({
   color,
 }) => (
   <div
-    className={`w-full aspect-square rounded-[1.25rem] flex flex-col items-center justify-center ${color}`}
+    className={`w-full aspect-square rounded-[clamp(0.8rem,3vw,1.25rem)] flex flex-col items-center justify-center ${color}`}
   >
     <span className="text-[clamp(0.3rem,2vw,0.9rem)]">{sub2}</span>
-    <span className="text-[clamp(2rem,5vw,3rem)] font-serif leading-none">
+    <span className="text-[clamp(1.8rem,5vw,3rem)] font-serif leading-none">
       {main}
     </span>
     <span className="text-[clamp(0.6rem,2vw,1.2rem)]">{sub}</span>
